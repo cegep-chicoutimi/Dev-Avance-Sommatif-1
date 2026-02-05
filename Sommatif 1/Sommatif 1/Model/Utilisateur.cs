@@ -10,11 +10,13 @@ namespace Sommatif_1.Model
     {
         public string User {  get; set; }
         public string Password { get; set; }
+        public DateTime DateLog {  get; set; }
 
-        public Utilisateur(string user, string password)
+        public Utilisateur(string user, string password, DateTime dateLog)
         {
             User = user;
             Password = password;
+            DateLog = dateLog;
         }
     }
 }

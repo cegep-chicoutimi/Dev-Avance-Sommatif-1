@@ -8,6 +8,6 @@ namespace Sommatif_1.View_Model
 {
     public class LoginViewmodel : BaseViewModel
     {
-
+                                                         
     }
 }
