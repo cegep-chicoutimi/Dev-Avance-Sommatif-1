@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Sommatif_1.View
 {
     /// <summary>
-    /// Logique d'interaction pour Login.xaml
+    /// Logique d'interaction pour InformationView.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class InformationView : UserControl
     {
-        public Login()
+        public InformationView()
         {
             InitializeComponent();
         }

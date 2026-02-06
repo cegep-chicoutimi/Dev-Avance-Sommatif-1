@@ -10,19 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Sommatif_1.View_Model;
 
 namespace Sommatif_1.View
 {
     /// <summary>
-    /// Logique d'interaction pour FenetrePrincipale.xaml
+    /// Logique d'interaction pour MainView.xaml
     /// </summary>
-    public partial class FenetrePrincipale : Page
+    public partial class MainView : Window
     {
-        public FenetrePrincipale()
+        public MainView()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
